@@ -1,0 +1,17 @@
+<div class="ui items">
+  <div class="item" *ngFor="let datapoint of data">
+    <div class="image">
+      <img [src]="datapoint.image" />
+    </div>
+    <div class="content">
+      <a class="header">{{ datapoint.title }}</a>
+      <div class="meta">
+        <span>{{ datapoint.description }}</span>
+      </div>
+      <div class="description">
+        <p></p>
+      </div>
+      <div class="extra">Additional Details</div>
+    </div>
+  </div>
+</div>
